@@ -71,6 +71,23 @@ nav {
     box-shadow: 0px 7px 9px #0000002d;
 }
 
+.return {
+    color: var(--cor1);
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+.return:hover {
+    background-color: var(--cor3);
+    color: var(--cor5);
+}
+
 nav > a {
     color: var(--cor1);
     padding: 10px;
